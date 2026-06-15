@@ -16,9 +16,3 @@ provider "azurerm" {
 }
 
 
-
-resource "azurerm_virtual_network" "example" {
-  name                = "example-network"
-  resource_group_name = azurerm_resource_group.example.name
-  location            = azurerm_resource_group.example.
-}
